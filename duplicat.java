@@ -15,7 +15,7 @@ public class duplicat {
 		
 		// Split the given sentence to get each word as String array
 		allWords = sentence.split(" ");
-		
+		allWords =sentence.split("");
 		// Convert String Array allWords to LinkedHashSet to remove duplicates
         LinkedHashSet<String> set = new LinkedHashSet<String>( Arrays.asList(allWords) );
         
