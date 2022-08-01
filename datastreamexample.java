@@ -10,7 +10,7 @@ public class datastreamexample {
 			while ((i=fin.read())!=-1){
 			System.out.println((character)i);
 			}
-			System.out.println((char)i);
+			System.out.println((character)i);
 		 fin.close();
 		 
 				}catch(Exception e) {System.out.println(e);
