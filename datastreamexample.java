@@ -8,7 +8,7 @@ public class datastreamexample {
 			System.out.print((char)i);
 			}
 			while ((i=fin.read())!=-1){
-			System.out.println((char)i);
+			System.out.println((character)i);
 			}
 			System.out.println((char)i);
 		 fin.close();
