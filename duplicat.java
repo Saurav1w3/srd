@@ -11,6 +11,7 @@ public class duplicat {
 		// Accept any sentence from User 
 		System.out.print("Enter your sentence: "); 
 		sentence = sc.nextLine().toLowerCase();  //convert to lower case
+		sentence =sc.nextLine().toUpperCase();
 		
 		// Split the given sentence to get each word as String array
 		allWords = sentence.split(" ");
